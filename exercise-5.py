@@ -13,3 +13,6 @@ def check_first_last_same(numbers):
     if first_number == last_number:
         # If same, return True
         return True
+    else:
+        # If different, return False
+        return False
