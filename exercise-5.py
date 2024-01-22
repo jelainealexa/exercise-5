@@ -17,7 +17,15 @@ def check_first_last_same(numbers):
         # If different, return False
         return False
     
-# Given
+# Given 1
 numbers_1 = [88, 45, 37, 62, 88, 90]
+print(f"Given list: " [numbers_1])
+print(f"The result is " check_first_last_same(numbers_1))
+
 numbers_2 = [75, 38, 24, 12]
+print(f"Given list: " [numbers_2])
+print(f"The result is " check_first_last_same(numbers_2))
+
 numbers_3 = [27, 7, 13, 65, 93, 27]
+print(f"Given list: " [numbers_3])
+print(f"The result is " check_first_last_same(numbers_3))
