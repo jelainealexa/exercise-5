@@ -5,10 +5,11 @@ def check_first_last_same(numbers):
 
     # Get the first number from the list
     first_number = 0
-    
+
     # Get the last number from the list
     last_number = -1
 
-# Check if the first and last numbers are the same
-
-# If same, return True; otherwise, return False
+    # Check if the first and last numbers are the same
+    if first_number == last_number:
+        # If same, return True
+        return True
